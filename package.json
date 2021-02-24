@@ -11,7 +11,7 @@
     "lint": "eslint 'src/**.{js,ts,tsx}'",
     "build": "yarn lint && yarn clean && yarn build:webpack",
     "build:typescript": "tsc --build tsconfig.json",
-    "build:webpack": "webpack --mode development",
+    "build:webpack": "webpack --mode production",
     "clean": "rimraf dist/"
   },
   "dependencies": {
